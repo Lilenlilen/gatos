@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dosis:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100%;
+}
+/*HEADER*/
+
+header {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #c2e3ec;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-family: "Amatic SC", cursive;
+  letter-spacing: 0.1rem;
+  margin: 0px auto;
+}
+
+header figure {
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: 3px solid black;
+}
+
+header figure img {
+  object-fit: cover;
+  max-width: 100%;
+  height: 100%;
+}
+
+header nav {
+  width: 100%;
+  background-color: #c2e3ec;
+}
+
+header nav ul {
+  flex-direction: row;
+  padding: 1rem 0;
+}
+
+header nav ul li {
+  display: inline;
+  padding: 1rem;
+}
+
+/*naranja: #FAC264
+  celeste: #C2E3EC
+  amarillo: #fcfdb8
+  violeta: #C6ACC7*/
+
+/*MAIN*/
+main {
+  padding: 1rem;
+  font-family: "Dosis", sans-serif;
+}
+
+h2 {
+  color: #c6acc7;
+  font-family: "Amatic SC", cursive;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding: 1rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/*RAZAS*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 1rem;
+}
+
+thead {
+  background-color: #fac264;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fcfdb8;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(248, 204, 211);
+}
+
+th,
+tr,
+td {
+  border: 1px solid black;
+  width: 150px;
+  height: 45px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+/*GUSTOS*/
+
+#gustos p {
+  padding: 1rem;
+}
+
+#gustos ul li {
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+#gustos ul li:nth-child(even) {
+  background-color: #c2e3ec;
+}
+
+#gustos ul li:nth-child(odd) {
+  background-color: rgb(248, 204, 211);
+}
+/*LIMPIEZA*/
+#limpieza ol {
+  font-size: 2rem;
+  padding: 0 2rem;
+}
+
+#limpieza ol li p {
+  font-size: 1rem;
+}
+
+/*FAMOSOS*/
+#famosos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#famosos section {
+  margin: 1rem auto;
+  padding: 1rem;
+  padding-bottom: 0;
+  background-color: #c6acc7;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+#famosos img {
+  margin: 1rem auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/*FORMULARIO*/
+#contacto {
+  background-color: #c2e3ec;
+  padding: 1rem;
+}
+
+#contacto h2 {
+  color: black;
+}
